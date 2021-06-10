@@ -4,7 +4,7 @@
 
 # RULES
 
-1 . The main goal is to reach a score equal or above to a 100.
+1 . The main goal is to reach a score equal or above to a 100. <br>
 2 . To play, click on the button named " ROLL DICE ".
 3 . To hold your score, click on the button named " HOLD ".
 4 . To reset the game, click on the button named " NEW GAME ".
