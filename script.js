@@ -49,7 +49,7 @@ function winnerMsg() {
   document
     .querySelector('.player--' + activePlayer)
     .classList.add('player--winner');
-  document.getElementById('name--' + activePlayer).textContent = 'YOU WIN 🏆';
+  document.getElementById('name--' + activePlayer).textContent = ' YOU WIN 🏆';
   document.querySelector('.btn--roll').setAttribute('disabled', true);
   document.querySelector('.btn--hold').setAttribute('disabled', true);
 }
@@ -83,7 +83,7 @@ document.querySelector('.btn--hold').addEventListener('click', function () {
   document.querySelector('.dice').style.display = 'none';
   totalScore = totalScore + currentScore;
   document.getElementById('score--' + activePlayer).textContent = totalScore;
-  if (totalScore >= 30) {
+  if (totalScore >= 100) {
     winnerMsg();
   }
   changePlayer();
